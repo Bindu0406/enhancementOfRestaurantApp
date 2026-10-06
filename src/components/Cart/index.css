@@ -1,0 +1,43 @@
+.cart-route-container {
+  min-height: 100vh;
+  background-color: #f8fafc;
+}
+
+.cart-body-container {
+  display: flex;
+  justify-content: center;
+  padding: 24px 16px;
+}
+
+.cart-content-container {
+  width: 100%;
+  max-width: 800px;
+}
+
+.cart-header-action {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.cart-main-heading {
+  font-size: 22px;
+  color: #1e293b;
+  margin: 0;
+}
+
+.remove-all-btn {
+  background: transparent;
+  border: none;
+  color: #0b69ff;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.cart-items-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}

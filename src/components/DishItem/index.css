@@ -1,0 +1,188 @@
+.dish-card {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  border: 1px solid #fed7aa;
+  border-radius: 16px;
+  padding: 22px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 12px rgba(249, 115, 22, 0.06);
+  transition:
+    transform 0.2s,
+    box-shadow 0.2s;
+}
+
+.dish-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(249, 115, 22, 0.12);
+}
+
+.dish-indicator-content {
+  display: flex;
+  gap: 16px;
+  flex: 1;
+}
+
+.dish-type-border {
+  width: 18px;
+  height: 18px;
+  border: 2px solid;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 4px;
+  flex-shrink: 0;
+}
+
+.veg-border {
+  border-color: #16a34a;
+}
+
+.non-veg-border {
+  border-color: #dc2626;
+}
+
+.dish-type-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
+
+.veg-dot {
+  background-color: #16a34a;
+}
+
+.non-veg-dot {
+  background-color: #dc2626;
+}
+
+.dish-info {
+  display: flex;
+  flex-direction: column;
+  max-width: 560px;
+}
+
+.dish-name {
+  font-size: 19px;
+  font-weight: 700;
+  color: #1e293b;
+  margin: 0 0 6px 0;
+}
+
+.dish-currency-price {
+  font-size: 16px;
+  font-weight: 700;
+  color: #ea580c;
+  margin: 0 0 8px 0;
+}
+
+.dish-description {
+  font-size: 13.5px;
+  color: #64748b;
+  line-height: 1.5;
+  margin: 0 0 14px 0;
+}
+
+.action-row {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 8px;
+}
+
+.quantity-control-container {
+  display: inline-flex;
+  align-items: center;
+  background: linear-gradient(135deg, #15803d, #16a34a);
+  border-radius: 30px;
+  color: #ffffff;
+  padding: 4px 12px;
+  box-shadow: 0 2px 8px rgba(22, 163, 74, 0.25);
+}
+
+.qty-btn {
+  background: transparent;
+  border: none;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 0 6px;
+  line-height: 1;
+}
+
+.qty-value {
+  margin: 0 10px;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.add-to-cart-btn {
+  background: linear-gradient(135deg, #2563eb, #1d4ed8);
+  color: #ffffff;
+  border: none;
+  padding: 8px 18px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+  box-shadow: 0 3px 10px rgba(37, 99, 235, 0.3);
+  transition:
+    transform 0.15s,
+    box-shadow 0.15s;
+}
+
+.add-to-cart-btn:hover {
+  transform: scale(1.04);
+  box-shadow: 0 5px 14px rgba(37, 99, 235, 0.4);
+}
+
+.not-available-text {
+  color: #dc2626;
+  font-size: 13px;
+  font-weight: 700;
+  margin: 6px 0;
+}
+
+.customizations-tag {
+  color: #d97706;
+  font-size: 12px;
+  font-weight: 600;
+  background-color: #fef3c7;
+  padding: 3px 8px;
+  border-radius: 6px;
+  width: fit-content;
+  margin-top: 4px;
+}
+
+.dish-calories-image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  flex-shrink: 0;
+  margin-left: 20px;
+}
+
+.calories-badge {
+  font-size: 12px;
+  font-weight: 700;
+  color: #ea580c;
+  background-color: #ffedd5;
+  padding: 4px 10px;
+  border-radius: 20px;
+  white-space: nowrap;
+}
+
+.dish-image {
+  width: 120px;
+  height: 120px;
+  border-radius: 14px;
+  object-fit: cover;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
+  border: 2px solid #ffffff;
+}
